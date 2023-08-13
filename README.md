@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Abhishek</h1>
-<h3 align="center">A passionate Software developer from India currently In uk</h3>
+<h3 align="center">A passionate Software developer from India currently In UNITED KINGDOM</h3>
 
 - 🔭 I’m currently working on Ecommerce Website **MERN ECOMMERCE WEBSITE**
 
