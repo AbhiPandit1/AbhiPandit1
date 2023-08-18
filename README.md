@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Abhishek</h1>
-<h3 align="center">A passionate Software developer from India currently In uk</h3>
+<h3 align="center">A passionate Software developer from India currently In United Kingdom</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=abhipandit1&label=Profile%20views&color=0e75b6&style=flat" alt="abhipandit1" /> </p>
 
