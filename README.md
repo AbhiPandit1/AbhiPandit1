@@ -9,7 +9,7 @@
 
 - 🔭 I’m currently working on Ecommerce Website **MERN ECOMMERCE WEBSITE**
 
-- 👨‍💻 All of my projects are available at [https://frabjous-arithmetic-9f7b2e.netlify.app](https://frabjous-arithmetic-9f7b2e.netlify.app)
+- 👨‍💻 All of my projects are available at [https://client-zeta-ten-45.vercel.app/](https://client-zeta-ten-45.vercel.app/)
 
 - 📫 How to reach me **224ABHISHEKJHA@GMAIL.COM**
 
