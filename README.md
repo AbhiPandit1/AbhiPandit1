@@ -18,9 +18,9 @@
 </p>
 
 - 🔭 I’m currently working on **MERN ECOMMERCE WEBSITE**
-- 👨‍💻 All of my projects are available at [My Portfolio](https://client-zeta-ten-45.vercel.app/)
+- 👨‍💻 All of my projects are available at [My Portfolio](https://www.abhishekportfolio.me/))
 - 📫 How to reach me: **224ABHISHEKJHA@GMAIL.COM**
-- 📄 Know about my experiences: [My Resume](https://drive.google.com/file/d/16l55BQZZN4fziMlgvYJIldta_qjXEvj_/view?pli=1)
+- 📄 Know about my experiences: [Abhishek Resume](https://drive.google.com/file/d/14y1hgZ9FPEyUIppAkE7m49TRhaqCcrux/view?usp=sharing))
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
