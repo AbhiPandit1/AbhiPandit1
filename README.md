@@ -1,95 +1,104 @@
-Abhishek Jha
-Full Stack Developer | Technical Lead | React.js, Node.js, Cloud Enthusiast
-Contact:
+# 👋 Hi, I'm Abhishek Jha!
 
-Phone: +91-9958329820
+### 🚀 Full Stack Developer | Technical Lead | React.js, Node.js & Cloud Enthusiast
 
-Email: 224abhishekjhauk@gmail.com
+---
 
-Location: Bengaluru, India
+<p align="center">
+  <a href="https://www.linkedin.com/in/abhishek-jha-fullstack/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="https://github.com/abhishekjha" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <a href="https://leetcode.com/abhishekjha/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
+  </a>
+  <a href="mailto:224abhishekjhauk@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://your-portfolio-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about-dot-me&logoColor=white" alt="Portfolio">
+  </a>
+</p>
 
-LinkedIn: Abhishek Jha (Assuming a LinkedIn profile link)
+---
 
-GitHub: Abhishek Jha (Assuming a GitHub profile link)
+## ✨ Summary
 
-LeetCode: Abhishek Jha (Assuming a LeetCode profile link)
+Creative Full Stack Developer with **3+ years of experience** delivering scalable web applications using **React.js, Node.js, and cloud services**. Proven track record in leading technical teams, optimizing performance, and delivering high-impact products.
 
-Portfolio: Abhishek Jha Portfolio (Assuming a portfolio link)
+---
 
-🚀 Summary
-Creative Full Stack Developer with 3+ years of experience delivering scalable web applications using React.js, Node.js, and cloud services. Proven track record in leading technical teams, optimizing performance, and delivering high-impact products.
+## 🛠️ Skills
 
-🛠️ Skills
-Languages: JavaScript, TypeScript, Python, SQL
-Frontend: React.js, Next.js, Tailwind CSS, Redux
-Backend: Node.js, Express.js, MongoDB, PostgreSQL
-Tools/DevOps: Docker, GitHub Actions, AWS (EC2, S3), Linux, Nginx
+| Category      | Technologies                                            |
+| :------------ | :------------------------------------------------------ |
+| **Languages** | `JavaScript` `TypeScript` `Python` `SQL`                |
+| **Frontend** | `React.js` `Next.js` `Tailwind CSS` `Redux`             |
+| **Backend** | `Node.js` `Express.js` `MongoDB` `PostgreSQL`           |
+| **DevOps/Tools** | `Docker` `GitHub Actions` `AWS (EC2, S3)` `Linux` `Nginx` |
 
-💼 Work Experience
-Technical Lead - Full Stack Developer | PGC DIGITAL, Bengaluru, India
-Jan 2025 – Present
+---
 
-Leading a 7-member team to develop an automation platform using MERN, Docker, K8s, and AWS.
+## 💼 Work Experience
 
-Architected scalable microservices for modular, reliable systems.
+### **Technical Lead - Full Stack Developer** | PGC DIGITAL, Bengaluru, India
+_Jan 2025 – Present_
+* 🧑‍💻 Leading a 7-member team to develop an automation platform using **MERN, Docker, K8s, and AWS**.
+* 🏗️ Architected scalable microservices for modular, reliable systems.
+* 🚀 Designed CI/CD pipelines, improving deployment efficiency by **40%**.
 
-Designed CI/CD pipelines, improving deployment efficiency by 40%.
+### **Full Stack Developer** | Nexgsol, Remote, UK-based
+_Jun 2024 – Dec 2024_
+* 💪 Built a personalized MERN fitness platform; boosted engagement by **25%**.
+* 💳 Integrated Stripe for payouts, improving efficiency by **77%**.
+* ⚡ Reduced backend latency by **40%** through Node.js optimizations.
 
-Full Stack Developer | Nexgsol, Remote, UK-based
-Jun 2024 – Dec 2024
+### **Frontend Developer** | InkRevenue, Gurugram, India
+_Oct 2021 – Sep 2022_
+* 🖥️ Led UI development using **React.js**; increased engagement by **20%**.
+* ⏱️ Reduced deployment cycle by **25%** through backend tuning.
+* 📱 Built responsive, multi-device-compatible web apps.
 
-Built a personalized MERN fitness platform; boosted engagement by 25%.
+---
 
-Integrated Stripe for payouts, improving efficiency by 77%.
+## 🚀 Projects
 
-Reduced backend latency by 40% through Node.js optimizations.
+### **ConvergeHub – Zoom-like Communication Platform**
+_Feb 2024 – May 2024_
+* **Stack:** `Next.js` `TypeScript` `WebRTC` `Tailwind CSS` `Socket.io`
+* Built a real-time video conferencing platform with group call support, screen sharing, and chat. Integrated WebRTC for peer-to-peer media streams and Socket.io for signaling. Optimized rendering and bandwidth usage for smooth performance across devices.
 
-Frontend Developer | InkRevenue, Gurugram, India
-Oct 2021 – Sep 2022
+---
 
-Led UI development using React.js; increased engagement by 20%.
+## 📚 Education
 
-Reduced deployment cycle by 25% through backend tuning.
+* **Master of Science in Computer Science (M.Tech)** | Birmingham City University, Birmingham
+    _2022 – 2023_
+* **Bachelor of Technology (B.Tech)** | IPU University, Delhi
+    _2017 – 2021_
 
-Built responsive, multi-device-compatible web apps.
+---
 
-📚 Education
-Master of Science in Computer Science (M.Tech)
+## 📝 Publications
 
-Birmingham City University, Birmingham
+* **Node.js vs. Django: A Comparison** (Pre-peer reviewed) — [DOI Link](https://doi.org/your-nodejs-django-doi) 
+* **Dynamic Fitness Program – ProgramPanda** (Pre-peer reviewed) — [DOI Link](https://doi.org/your-programpanda-doi) 
 
-2022 – 2023
+---
 
-Bachelor of Technology (B.Tech)
+## ⭐ Achievements & Certifications
 
-IPU University, Delhi
+* 🏅 Top 4 ranker in the UK during LeetCode Contests 429 and 430 (Achieved 5% rank).
+* 💰 Sold two websites for over £10,000.
+* 🤝 Mentored junior developers, boosting onboarding and delivery speed.
+* 📜 Intermediate and Advanced Python Certification — Cisco Networking
+* 📜 Advanced React.js Certification — HackerRank
+* 📜 Technical Report Writing Certification
 
-2017 – 2021
+---
 
-💻 Projects
-ConvergeHub – Zoom-like Communication Platform
-Feb 2024 – May 2024
-
-Stack: Next.js, TypeScript, WebRTC, Tailwind CSS, Socket.io
-
-Built a real-time video conferencing platform with group call support, screen sharing, and chat. Integrated WebRTC for peer-to-peer media streams and Socket.io for signaling. Optimized rendering and bandwidth usage for smooth performance across devices.
-
-📝 Publications
-Node.js vs. Django: A Comparison (Pre-peer reviewed) — DOI Link (Placeholder DOI)
-
-Dynamic Fitness Program – ProgramPanda (Pre-peer reviewed) — DOI Link (Placeholder DOI)
-
-⭐ Achievements & Certifications
-Top 4 ranker in the UK during LeetCode Contests 429 and 430 (Achieved 5% rank).
-
-Sold two websites for over £10,000.
-
-Mentored junior developers, boosting onboarding and delivery speed.
-
-Intermediate and Advanced Python Certification — Cisco Networking
-
-Advanced React.js Certification — HackerRank
-
-Technical Report Writing Certification
-
-Feel free to explore my repositories and connect with me!
+<p align="center">
+  Connect with me! Let's build something amazing together! 🚀
+</p>
