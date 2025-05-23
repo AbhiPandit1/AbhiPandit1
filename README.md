@@ -1,63 +1,95 @@
-<h1 align="center">Hi 👋, I'm Abhishek Jha</h1>
-<h3 align="center">A Passionate Full-Stack Developer from India</h3>
+Abhishek Jha
+Full Stack Developer | Technical Lead | React.js, Node.js, Cloud Enthusiast
+Contact:
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=abhipandit1&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-</p>
+Phone: +91-9958329820
 
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=abhipandit1&theme=dark_lover&margin-w=15&margin-h=15&column=7" alt="GitHub Trophies" />
-  </a>
-</p>
+Email: 224abhishekjhauk@gmail.com
 
----
+Location: Bengaluru, India
 
-<h2 align="center">🚀 About Me</h2>
+LinkedIn: Abhishek Jha (Assuming a LinkedIn profile link)
 
-- 🔭 I’m currently working on **MERN E-commerce Website**  
-- 🌐 All of my projects are available at **My Portfolio**  
-- 📫 How to reach me: **224abhishekjha@gmail.com**  
-- 📄 Check out my experiences: **My Resume**
+GitHub: Abhishek Jha (Assuming a GitHub profile link)
 
----
+LeetCode: Abhishek Jha (Assuming a LeetCode profile link)
 
-<h2 align="center">🌟 Connect with Me</h2>
+Portfolio: Abhishek Jha Portfolio (Assuming a portfolio link)
 
-<p align="center">
-  <a href="https://linkedin.com/in/abhishek-jha-087a761a8" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="https://www.hackerrank.com/224abhishekjha" target="_blank">
-    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-hackerrank-is-a-technology-company-that-focuses-on-competitive-programming-logo-color-tal-revivo.png" alt="HackerRank" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/abhishek_pandit/" target="_blank">
-    <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" alt="LeetCode" />
-  </a>
-</p>
+🚀 Summary
+Creative Full Stack Developer with 3+ years of experience delivering scalable web applications using React.js, Node.js, and cloud services. Proven track record in leading technical teams, optimizing performance, and delivering high-impact products.
 
----
+🛠️ Skills
+Languages: JavaScript, TypeScript, Python, SQL
+Frontend: React.js, Next.js, Tailwind CSS, Redux
+Backend: Node.js, Express.js, MongoDB, PostgreSQL
+Tools/DevOps: Docker, GitHub Actions, AWS (EC2, S3), Linux, Nginx
 
-<h2 align="center">🛠️ Skills & Tools</h2>
+💼 Work Experience
+Technical Lead - Full Stack Developer | PGC DIGITAL, Bengaluru, India
+Jan 2025 – Present
 
-<p align="center">
-  <a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="40" height="40"/></a>
-  <a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="40" height="40"/></a>
-  <a href="https://www.mongodb.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="40" height="40"/></a>
-  <a href="https://redux.js.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="Redux" width="40" height="40"/></a>
-  <a href="https://tailwindcss.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="Tailwind CSS" width="40" height="40"/></a>
-  <a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/></a>
-  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="40" height="40"/></a>
-  <a href="https://sass-lang.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="Sass" width="40" height="40"/></a>
-  <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="40" height="40"/></a>
-</p>
+Leading a 7-member team to develop an automation platform using MERN, Docker, K8s, and AWS.
 
----
+Architected scalable microservices for modular, reliable systems.
 
-<h2 align="center">📊 My Stats</h2>
+Designed CI/CD pipelines, improving deployment efficiency by 40%.
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=abhipandit1&theme=dark" alt="GitHub Streak" />
-</p>
+Full Stack Developer | Nexgsol, Remote, UK-based
+Jun 2024 – Dec 2024
+
+Built a personalized MERN fitness platform; boosted engagement by 25%.
+
+Integrated Stripe for payouts, improving efficiency by 77%.
+
+Reduced backend latency by 40% through Node.js optimizations.
+
+Frontend Developer | InkRevenue, Gurugram, India
+Oct 2021 – Sep 2022
+
+Led UI development using React.js; increased engagement by 20%.
+
+Reduced deployment cycle by 25% through backend tuning.
+
+Built responsive, multi-device-compatible web apps.
+
+📚 Education
+Master of Science in Computer Science (M.Tech)
+
+Birmingham City University, Birmingham
+
+2022 – 2023
+
+Bachelor of Technology (B.Tech)
+
+IPU University, Delhi
+
+2017 – 2021
+
+💻 Projects
+ConvergeHub – Zoom-like Communication Platform
+Feb 2024 – May 2024
+
+Stack: Next.js, TypeScript, WebRTC, Tailwind CSS, Socket.io
+
+Built a real-time video conferencing platform with group call support, screen sharing, and chat. Integrated WebRTC for peer-to-peer media streams and Socket.io for signaling. Optimized rendering and bandwidth usage for smooth performance across devices.
+
+📝 Publications
+Node.js vs. Django: A Comparison (Pre-peer reviewed) — DOI Link (Placeholder DOI)
+
+Dynamic Fitness Program – ProgramPanda (Pre-peer reviewed) — DOI Link (Placeholder DOI)
+
+⭐ Achievements & Certifications
+Top 4 ranker in the UK during LeetCode Contests 429 and 430 (Achieved 5% rank).
+
+Sold two websites for over £10,000.
+
+Mentored junior developers, boosting onboarding and delivery speed.
+
+Intermediate and Advanced Python Certification — Cisco Networking
+
+Advanced React.js Certification — HackerRank
+
+Technical Report Writing Certification
+
+Feel free to explore my repositories and connect with me!
