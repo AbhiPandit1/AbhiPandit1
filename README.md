@@ -95,7 +95,7 @@ _Feb 2024 – May 2024_
 * 🤝 Mentored junior developers, boosting onboarding and delivery speed.
 * 📜 Intermediate and Advanced Python Certification — Cisco Networking
 * 📜 Advanced React.js Certification — HackerRank
-* 📜 Technical Report Writing Certification
+* 📜 Technical Report Writing Certifications
 
 ---
 
