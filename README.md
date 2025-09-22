@@ -88,7 +88,7 @@ _Feb 2024 – May 2024_
 
 ---
 
-## ⭐ Achievements & Certifications
+## ⭐ Achievements & Certification
 
 * 🏅 Top 4 ranker in the UK during LeetCode Contests 429 and 430 (Achieved 5% rank).
 * 💰 Sold two websites for over £10,000.
