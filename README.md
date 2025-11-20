@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Abhishek Jha!
+# 👋 Hi, I'm Abhishek Jha
 
 ### 🚀 Full Stack Developer | Technical Lead | React.js, Node.js & Cloud Enthusiast
 
