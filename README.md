@@ -15,18 +15,17 @@
   <a href="https://www.linkedin.com/in/abhishek-jha-087a761a8/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://leetcode.com/u/Abhishek_pandit/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
   <a href="mailto:224abhishekjhauk@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.abhishekportfolio.me/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about-dot-me&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://abhishek-portfolio-fbgr.onrender.com/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about-dot-me&logoColor=white" alt="Portfolio"/></a>
 </p>
 
 ---
 
 <!--
-  PLAIN FALLBACK (agar SVG nahi chahiye) — instant render, single-color.
-  Upar wale <p><img neofetch></p> ko hata ke neeche wala uncomment kar do.
+
 -->
 <!--
 ```
-abhishek@github ~ % neofetch
+abhishek@github ~ %
 
       .-"""""-.          Abhishek Jha
     .'         '.        ----------------------------------------
