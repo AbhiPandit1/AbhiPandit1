@@ -1,104 +1,146 @@
-# 👋 Hi, I'm Abhishek Jha 
+# AmoreVnb — Deployment Guide
 
-### 🚀 Full Stack Developer | Technical Lead | React.js, Node.js & Cloud Enthusiast
-
----
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/abhishek-jha-087a761a8/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a>
-  <a href="https://github.com/AbhiPandit1" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-  </a>
-  <a href="https://leetcode.com/u/Abhishek_pandit/" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode">
-  </a>
-  <a href="mailto:224abhishekjhauk@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-  </a>
-  <a href="https://www.abhishekportfolio.me/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about-dot-me&logoColor=white" alt="Portfolio">
-  </a>
-</p>
+## Prerequisites
+- AWS CLI configured with profile `amorebnb`
+- Docker Desktop running
+- Node.js 20+
 
 ---
 
-## ✨ Summary
+## Step-by-Step Execution Order
 
-Creative Full Stack Developer with **3+ years of experience** delivering scalable web applications using **React.js, Node.js, and cloud services**. Proven track record in leading technical teams, optimizing performance, and delivering high-impact products.
+### Step 1 — Copy Dockerfiles into your projects
 
----
+```bash
+# Backend
+cp backend/Dockerfile ~/pavitra-project/amorebnb-backend/
+cp backend/.dockerignore ~/pavitra-project/amorebnb-backend/
 
-## 🛠️ Skills
+# Chat
+cp chat/Dockerfile ~/pavitra-project/amorebnb-chat/
 
-| Category      | Technologies                                            |
-| :------------ | :------------------------------------------------------ |
-| **Languages** | `JavaScript` `TypeScript` `Python` `SQL`                |
-| **Frontend** | `React.js` `Next.js` `Tailwind CSS` `Redux`             |
-| **Backend** | `Node.js` `Express.js` `MongoDB` `PostgreSQL`           |
-| **DevOps/Tools** | `Docker` `GitHub Actions` `AWS (EC2, S3)` `Linux` `Nginx` |
-
----
-
-## 💼 Work Experience
-
-### **Technical Lead - Full Stack Developer** | PGC DIGITAL, Bengaluru, India
-_Jan 2025 – Present_
-* 🧑‍💻 Leading a 7-member team to develop an automation platform using **MERN, Docker, K8s, and AWS**.
-* 🏗️ Architected scalable microservices for modular, reliable systems.
-* 🚀 Designed CI/CD pipelines, improving deployment efficiency by **40%**.
-
-### **Full Stack Developer** | Nexgsol, Remote, UK-based
-_Jun 2024 – Dec 2024_
-* 💪 Built a personalized MERN fitness platform; boosted engagement by **25%**.
-* 💳 Integrated Stripe for payouts, improving efficiency by **77%**.
-* ⚡ Reduced backend latency by **40%** through Node.js optimizations.
-
-### **Frontend Developer** | InkRevenue, Gurugram, India
-_Oct 2021 – Sep 2022_
-* 🖥️ Led UI development using **React.js**; increased engagement by **20%**.
-* ⏱️ Reduced deployment cycle by **25%** through backend tuning.
-* 📱 Built responsive, multi-device-compatible web apps.
+# Frontend (only if doing ECS, skip if using S3)
+cp frontend/Dockerfile ~/pavitra-project/amor-bnb/
+cp frontend/nginx.conf ~/pavitra-project/amor-bnb/
+```
 
 ---
 
-## 🚀 Projects
+### Step 2 — Store secrets in SSM
 
-### **ConvergeHub – Zoom-like Communication Platform**
-_Feb 2024 – May 2024_
-* **Stack:** `Next.js` `TypeScript` `WebRTC` `Tailwind CSS` `Socket.io`
-* Built a real-time video conferencing platform with group call support, screen sharing, and chat. Integrated WebRTC for peer-to-peer media streams and Socket.io for signaling. Optimized rendering and bandwidth usage for smooth performance across devices.
+Edit `scripts/store-secrets.sh` and fill in:
+- `YOUR_RDS_DB_PASSWORD` — your RDS master password
+- `YOUR_AWS_SECRET_ACCESS_KEY` — AWS secret for S3 uploads
+- `YOUR_GOOGLE_CLIENT_SECRET` — from Google Cloud Console
 
----
-
-## 📚 Education
-
-* **Master of Science in Computer Science (M.Tech)** | Birmingham City University, Birmingham
-    _2022 – 2023_
-* **Bachelor of Technology (B.Tech)** | IPU University, Delhi
-    _2017 – 2021_
+Then run:
+```bash
+chmod +x scripts/store-secrets.sh
+./scripts/store-secrets.sh
+```
 
 ---
 
-## 📝 Publications
+### Step 3 — Add health check to backend
 
-* **Node.js vs. Django: A Comparison** (Pre-peer reviewed) — [DOI Link](https://doi.org/your-nodejs-django-doi) 
-* **Dynamic Fitness Program – ProgramPanda** (Pre-peer reviewed) — [DOI Link](https://doi.org/your-programpanda-doi) 
-
----
-
-## ⭐ Achievements & Certification
-
-* 🏅 Top 4 ranker in the UK during LeetCode Contests 429 and 430 (Achieved 5% rank).
-* 💰 Sold two websites for over £10,000.
-* 🤝 Mentored junior developers, boosting onboarding and delivery speed.
-* 📜 Intermediate and Advanced Python Certification — Cisco Networking
-* 📜 Advanced React.js Certification — HackerRank
-* 📜 Technical Report Writing Certifications
+Make sure your backend has a `/health` route:
+```typescript
+// In your Express app
+app.get('/health', (req, res) => res.json({ status: 'ok' }));
+```
 
 ---
 
-<p align="center">
-  Connect with me! Let's build something amazing together! 🚀
-</p>
+### Step 4 — Create IAM Role (if not exists)
+
+In AWS Console → IAM → Roles, ensure `ecsTaskExecutionRole` exists with:
+- `AmazonECSTaskExecutionRolePolicy`
+- `AmazonSSMReadOnlyAccess` (for secrets)
+
+---
+
+### Step 5 — Run the initial setup (ALB + CloudFront)
+
+```bash
+chmod +x scripts/create-alb.sh scripts/create-cloudfront.sh
+./scripts/create-alb.sh       # Creates ALB, Target Groups, ECS Services
+./scripts/create-cloudfront.sh # Creates S3 bucket + CloudFront
+```
+
+---
+
+### Step 6 — Get ACM SSL Certificate
+
+1. Go to AWS Console → Certificate Manager → ap-south-1
+2. Request public cert for `*.amorevnb.com` and `amorevnb.com`
+3. Validate via DNS (add CNAME at your registrar)
+4. Copy the cert ARN
+5. Uncomment the HTTPS listener section in `create-alb.sh`, paste ARN, re-run
+
+Also request a cert in **us-east-1** (required for CloudFront).
+
+---
+
+### Step 7 — Full deploy
+
+```bash
+chmod +x scripts/deploy.sh
+./scripts/deploy.sh
+```
+
+---
+
+### Step 8 — DNS Setup
+
+At your domain registrar (or Route 53):
+
+| Record | Type | Value |
+|--------|------|-------|
+| `amorevnb.com` | CNAME / Alias | CloudFront domain (xxxx.cloudfront.net) |
+| `api.amorevnb.com` | CNAME | ALB DNS name |
+| `chat.amorevnb.com` | CNAME | ALB DNS name |
+
+---
+
+### Step 9 — Update Google OAuth
+
+In Google Cloud Console → Credentials → OAuth Client:
+- Add Authorized redirect URI: `https://api.amorevnb.com/api/auth/google/callback`
+
+---
+
+### Step 10 — Smoke Test
+
+```bash
+curl https://api.amorevnb.com/health        # → {"status":"ok"}
+curl https://chat.amorevnb.com/             # → Socket.IO response
+open https://amorevnb.com                   # → Frontend loads
+```
+
+---
+
+## Ongoing Redeploys
+
+After code changes:
+```bash
+./scripts/redeploy.sh api       # Redeploy only backend
+./scripts/redeploy.sh chat      # Redeploy only chat
+./scripts/redeploy.sh frontend  # Redeploy only frontend
+./scripts/redeploy.sh all       # Redeploy everything
+```
+
+---
+
+## Monitoring
+
+```bash
+# View ECS service logs
+aws logs tail /ecs/amorebnb-api --follow --region ap-south-1 --profile amorebnb
+aws logs tail /ecs/amorebnb-chat --follow --region ap-south-1 --profile amorebnb
+
+# Check ECS service status
+aws ecs describe-services --cluster amorebnb-cluster \
+  --services amorebnb-api amorebnb-chat \
+  --region ap-south-1 --profile amorebnb \
+  --query 'services[*].{Name:serviceName,Running:runningCount,Desired:desiredCount,Status:status}'
+```
