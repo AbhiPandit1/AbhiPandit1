@@ -1,0 +1,51 @@
+<svg width="880" height="590" viewBox="0 0 880 590" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
+  <rect x="0" y="0" width="880" height="590" rx="12" fill="#16161e"/>
+  <rect x="0" y="0" width="880" height="36" rx="12" fill="#1a1b26"/>
+  <rect x="0" y="20" width="880" height="16" fill="#1a1b26"/>
+  <circle cx="24" cy="18" r="6" fill="#f7768e"/>
+  <circle cx="46" cy="18" r="6" fill="#e0af68"/>
+  <circle cx="68" cy="18" r="6" fill="#9ece6a"/>
+  <text x="440" y="23" fill="#565f89" font-size="13" text-anchor="middle">AbhiPandit1 — README.md</text>
+
+  <text x="40" y="72" font-size="15">
+    <tspan fill="#9ece6a">abhishek@github</tspan><tspan fill="#c0caf5"> ~ % </tspan><tspan fill="#7dcfff">neofetch</tspan>
+  </text>
+
+  <!-- ASCII portrait (placeholder — send a photo to swap in your real face) -->
+  <text x="44" y="118" fill="#7dcfff" font-size="14" xml:space="preserve">
+    <tspan x="44" dy="0">      .-"""""-.</tspan>
+    <tspan x="44" dy="20">    .'         '.</tspan>
+    <tspan x="44" dy="20">   /   ^     ^   \</tspan>
+    <tspan x="44" dy="20">  |               |</tspan>
+    <tspan x="44" dy="20">  |    (  ..  )   |</tspan>
+    <tspan x="44" dy="20">   \    '----'   /</tspan>
+    <tspan x="44" dy="20">    '.         .'</tspan>
+    <tspan x="44" dy="20">      '-.....-'</tspan>
+    <tspan x="44" dy="20">   __/         \__</tspan>
+    <tspan x="44" dy="20">  /   \_______/   \</tspan>
+  </text>
+
+  <g font-size="15">
+    <text x="360" y="110"><tspan fill="#9ece6a">Abhishek Jha</tspan></text>
+    <text x="360" y="130" fill="#565f89">------------------------------------------</text>
+    <text x="360" y="152"><tspan fill="#e0af68">Role: </tspan><tspan fill="#c0caf5">Full-Stack / Staff Engineer</tspan></text>
+    <text x="360" y="174"><tspan fill="#e0af68">Title: </tspan><tspan fill="#c0caf5">Acting CTO, Danish startup</tspan></text>
+    <text x="360" y="196"><tspan fill="#e0af68">Location: </tspan><tspan fill="#c0caf5">London  (open to relocate)</tspan></text>
+    <text x="360" y="218"><tspan fill="#e0af68">Uptime: </tspan><tspan fill="#c0caf5">6+ years in software</tspan></text>
+    <text x="360" y="240"><tspan fill="#e0af68">Languages: </tspan><tspan fill="#c0caf5">TypeScript, Python, SQL</tspan></text>
+    <text x="360" y="262"><tspan fill="#e0af68">Frontend: </tspan><tspan fill="#c0caf5">React, Next.js, Tailwind</tspan></text>
+    <text x="360" y="284"><tspan fill="#e0af68">Backend: </tspan><tspan fill="#c0caf5">Node, Express, FastAPI</tspan></text>
+    <text x="360" y="306"><tspan fill="#e0af68">Data: </tspan><tspan fill="#c0caf5">PostgreSQL, MongoDB, Redis</tspan></text>
+    <text x="360" y="328"><tspan fill="#e0af68">Infra: </tspan><tspan fill="#c0caf5">AWS, Kubernetes, Kafka, Docker</tspan></text>
+    <text x="360" y="350"><tspan fill="#e0af68">Focus: </tspan><tspan fill="#c0caf5">event-driven systems, AI/LLM products</tspan></text>
+    <text x="360" y="372"><tspan fill="#e0af68">Education: </tspan><tspan fill="#c0caf5">MSc Computer Science (UK)</tspan></text>
+    <text x="360" y="394"><tspan fill="#e0af68">LeetCode: </tspan><tspan fill="#c0caf5">741 solved, Top-5 UK (contests 429/430)</tspan></text>
+
+    <text x="360" y="432"><tspan fill="#e0af68">Email: </tspan><tspan fill="#c0caf5">224abhishekjhauk@gmail.com</tspan></text>
+    <text x="360" y="454"><tspan fill="#e0af68">LinkedIn: </tspan><tspan fill="#c0caf5">/in/abhishek-jha-087a761a8</tspan></text>
+    <text x="360" y="476"><tspan fill="#e0af68">Portfolio: </tspan><tspan fill="#c0caf5">abhishekportfolio.me</tspan></text>
+
+    <text x="360" y="514" fill="#565f89">GitHub Stats -----------------------------</text>
+    <text x="360" y="536"><tspan fill="#e0af68">Repos: </tspan><tspan fill="#c0caf5">57   </tspan><tspan fill="#e0af68">Stars: </tspan><tspan fill="#c0caf5">21   </tspan><tspan fill="#e0af68">Following: </tspan><tspan fill="#c0caf5">9</tspan></text>
+  </g>
+</svg>

@@ -1,146 +1,53 @@
-# AmoreVnb — Deployment Guide
+<!--
+  GitHub profile README for  AbhiPandit1
+  Repo naam EXACTLY:  AbhiPandit1/AbhiPandit1
+  neofetch.svg isi repo me commit karo, tabhi image render hogi.
+-->
 
-## Prerequisites
-- AWS CLI configured with profile `amorebnb`
-- Docker Desktop running
-- Node.js 20+
+<p align="center">
+  <img src="./neofetch.svg" alt="neofetch" width="880" />
+</p>
+
+<!-- Live stats (auto: real repos / stars / commits) -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AbhiPandit1&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="stats" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhiPandit1&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="langs" height="165" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abhishek-jha-087a761a8/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://leetcode.com/u/Abhishek_pandit/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
+  <a href="mailto:224abhishekjhauk@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.abhishekportfolio.me/"><img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=about-dot-me&logoColor=white" alt="Portfolio"/></a>
+</p>
 
 ---
 
-## Step-by-Step Execution Order
-
-### Step 1 — Copy Dockerfiles into your projects
-
-```bash
-# Backend
-cp backend/Dockerfile ~/pavitra-project/amorebnb-backend/
-cp backend/.dockerignore ~/pavitra-project/amorebnb-backend/
-
-# Chat
-cp chat/Dockerfile ~/pavitra-project/amorebnb-chat/
-
-# Frontend (only if doing ECS, skip if using S3)
-cp frontend/Dockerfile ~/pavitra-project/amor-bnb/
-cp frontend/nginx.conf ~/pavitra-project/amor-bnb/
+<!--
+  PLAIN FALLBACK (agar SVG nahi chahiye) — instant render, single-color.
+  Upar wale <p><img neofetch></p> ko hata ke neeche wala uncomment kar do.
+-->
+<!--
 ```
+abhishek@github ~ % neofetch
 
----
+      .-"""""-.          Abhishek Jha
+    .'         '.        ----------------------------------------
+   /   ^     ^   \       Role: Full-Stack / Staff Engineer
+  |               |      Title: Acting CTO, Danish startup
+  |    (  ..  )   |      Location: London (open to relocate)
+   \    '----'   /       Uptime: 6+ years in software
+    '.         .'        Languages: TypeScript, Python, SQL
+      '-.....-'          Frontend: React, Next.js, Tailwind
+   __/         \__       Backend: Node, Express, FastAPI
+  /   \_______/   \      Data: PostgreSQL, MongoDB, Redis
+                         Infra: AWS, Kubernetes, Kafka, Docker
+                         Focus: event-driven systems, AI/LLM
+                         Education: MSc Computer Science (UK)
+                         LeetCode: 741 solved, Top-5 UK (429/430)
 
-### Step 2 — Store secrets in SSM
-
-Edit `scripts/store-secrets.sh` and fill in:
-- `YOUR_RDS_DB_PASSWORD` — your RDS master password
-- `YOUR_AWS_SECRET_ACCESS_KEY` — AWS secret for S3 uploads
-- `YOUR_GOOGLE_CLIENT_SECRET` — from Google Cloud Console
-
-Then run:
-```bash
-chmod +x scripts/store-secrets.sh
-./scripts/store-secrets.sh
+                         Email: 224abhishekjhauk@gmail.com
+                         LinkedIn: /in/abhishek-jha-087a761a8
+                         Portfolio: abhishekportfolio.me
 ```
-
----
-
-### Step 3 — Add health check to backend
-
-Make sure your backend has a `/health` route:
-```typescript
-// In your Express app
-app.get('/health', (req, res) => res.json({ status: 'ok' }));
-```
-
----
-
-### Step 4 — Create IAM Role (if not exists)
-
-In AWS Console → IAM → Roles, ensure `ecsTaskExecutionRole` exists with:
-- `AmazonECSTaskExecutionRolePolicy`
-- `AmazonSSMReadOnlyAccess` (for secrets)
-
----
-
-### Step 5 — Run the initial setup (ALB + CloudFront)
-
-```bash
-chmod +x scripts/create-alb.sh scripts/create-cloudfront.sh
-./scripts/create-alb.sh       # Creates ALB, Target Groups, ECS Services
-./scripts/create-cloudfront.sh # Creates S3 bucket + CloudFront
-```
-
----
-
-### Step 6 — Get ACM SSL Certificate
-
-1. Go to AWS Console → Certificate Manager → ap-south-1
-2. Request public cert for `*.amorevnb.com` and `amorevnb.com`
-3. Validate via DNS (add CNAME at your registrar)
-4. Copy the cert ARN
-5. Uncomment the HTTPS listener section in `create-alb.sh`, paste ARN, re-run
-
-Also request a cert in **us-east-1** (required for CloudFront).
-
----
-
-### Step 7 — Full deploy
-
-```bash
-chmod +x scripts/deploy.sh
-./scripts/deploy.sh
-```
-
----
-
-### Step 8 — DNS Setup
-
-At your domain registrar (or Route 53):
-
-| Record | Type | Value |
-|--------|------|-------|
-| `amorevnb.com` | CNAME / Alias | CloudFront domain (xxxx.cloudfront.net) |
-| `api.amorevnb.com` | CNAME | ALB DNS name |
-| `chat.amorevnb.com` | CNAME | ALB DNS name |
-
----
-
-### Step 9 — Update Google OAuth
-
-In Google Cloud Console → Credentials → OAuth Client:
-- Add Authorized redirect URI: `https://api.amorevnb.com/api/auth/google/callback`
-
----
-
-### Step 10 — Smoke Test
-
-```bash
-curl https://api.amorevnb.com/health        # → {"status":"ok"}
-curl https://chat.amorevnb.com/             # → Socket.IO response
-open https://amorevnb.com                   # → Frontend loads
-```
-
----
-
-## Ongoing Redeploys
-
-After code changes:
-```bash
-./scripts/redeploy.sh api       # Redeploy only backend
-./scripts/redeploy.sh chat      # Redeploy only chat
-./scripts/redeploy.sh frontend  # Redeploy only frontend
-./scripts/redeploy.sh all       # Redeploy everything
-```
-
----
-
-## Monitoring
-
-```bash
-# View ECS service logs
-aws logs tail /ecs/amorebnb-api --follow --region ap-south-1 --profile amorebnb
-aws logs tail /ecs/amorebnb-chat --follow --region ap-south-1 --profile amorebnb
-
-# Check ECS service status
-aws ecs describe-services --cluster amorebnb-cluster \
-  --services amorebnb-api amorebnb-chat \
-  --region ap-south-1 --profile amorebnb \
-  --query 'services[*].{Name:serviceName,Running:runningCount,Desired:desiredCount,Status:status}'
-```
+-->
