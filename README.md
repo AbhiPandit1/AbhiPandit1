@@ -9,10 +9,7 @@
 </p>
 
 <!-- Live stats (auto: real repos / stars / commits) -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AbhiPandit1&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbhiPandit1&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="langs" height="165" />
-</p>
+
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abhishek-jha-087a761a8/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
