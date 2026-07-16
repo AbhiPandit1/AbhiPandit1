@@ -1,96 +1,96 @@
-<svg width="1180" height="560" viewBox="0 0 1180 560" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
-  <rect x="0" y="0" width="1180" height="560" rx="12" fill="#0d0d12"/>
-  <rect x="0" y="0" width="1180" height="34" rx="12" fill="#15151d"/>
-  <rect x="0" y="18" width="1180" height="16" fill="#15151d"/>
+<svg width="1260" height="610" viewBox="0 0 1260 610" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace">
+  <rect x="0" y="0" width="1260" height="610" rx="12" fill="#0d0d12"/>
+  <rect x="0" y="0" width="1260" height="34" rx="12" fill="#15151d"/>
+  <rect x="0" y="18" width="1260" height="16" fill="#15151d"/>
   <circle cx="22" cy="17" r="5.5" fill="#f7768e"/><circle cx="42" cy="17" r="5.5" fill="#e0af68"/><circle cx="62" cy="17" r="5.5" fill="#9ece6a"/>
-  <text x="590" y="21" fill="#565f89" font-size="12" text-anchor="middle">AbhiPandit1 — README.md</text>
-  <!-- portrait v5-hires-dither -->
-  <text x="30" y="62" fill="#cdd6f4" font-size="6" xml:space="preserve">
-    <tspan x="30" dy="0">. . . . . . .. . . .  .   . . . . . .. . . . . . . . . .. . . . . . . . .  . . . . . . . . .</tspan>
-    <tspan x="30" dy="7"> . . . . . . . . . . . .. . ...    .  `.....   . . . . . .. . .. . . . . .. . . . . . . .. .</tspan>
-    <tspan x="30" dy="7">. . . . .  . . .  . .  .  . .  .``` _}'     ``` . .... .  . .   . . . . . . . .. .  . . . . </tspan>
-    <tspan x="30" dy="7"> . .. . . . . . .. . .. ..   :]?!;,fQ&lt;:-{1r(1}&gt;,.      ..... .. . . . . . . . . . .. . . . .</tspan>
-    <tspan x="30" dy="7">. . . . . . . . . . .  .  .'})i,_{xb0ZkoobpUx[;;i:,,,,.       . . . . . . . . . . . . . . . </tspan>
-    <tspan x="30" dy="7"> . . . . . . . . .  . ...`;rf.?cmb#M%W##kdCJQ0UQZOQOOYY /[+&gt;`.... .  . . . . . . . . . . . .</tspan>
-    <tspan x="30" dy="7"> . . . . . . .  .  ;..:,ii{0(zkao&amp;8&amp;W8%Mdwqbbkhha*#*aZLc|[&gt;:      . . . . . . . . . . . . . </tspan>
-    <tspan x="30" dy="7">. . . . . . .  . ` f{ ~)1]YoOk*#B@%BB&amp;*hkho******MWM*hkdpwCzt]&gt;i,`. ... . .  . . . . . .  . </tspan>
-    <tspan x="30" dy="7"> . . . . . ..`'. ` Xmf[CcC#kho%@$B@%Moh*&amp;%%BB%&amp;M***ooaoohhhoowv)&lt;`   .. .  . . . . . . .. . </tspan>
-    <tspan x="30" dy="7">. .  . . . . `;/[:;;cdwLh&amp;*d*&amp;$@@@%MMM8$@B%8Maohhhkh*o*aaaa***bOJt+;`   .. . . . ..  . . . .</tspan>
-    <tspan x="30" dy="7"> . .     . . . !nLu/fZaWMBob8%$$B88B@@@B%8W**oaahoaao*8BB%8WMM*MWWodzf-,   . . . . .. . . . </tspan>
-    <tspan x="30" dy="7"> . . . ....`;&lt;&lt;&lt;+xmqwpo#B$Wo@@$B%@@$@@B%&amp;&amp;W88%%B@BB%8W#*##ohahahaaobqZr)i`` . . . . . . . . </tspan>
-    <tspan x="30" dy="7">. . . . ..;&lt;~&lt;[tULZboaooMB$&amp;B@$B$@$@@@BB@@@@$$$@@@B%8W*oaaao*aao*#M*M#qz_  .. . .  . . . . .</tspan>
-    <tspan x="30" dy="7"> .  .. . `,'&gt;|Xmda*M&amp;%%8WW%BB@$@$@@$$@$$$$$$$@@@BB%%B%%%888&amp;&amp;W8B%%&amp;%8W##wf+. . . .. . .  . .</tspan>
-    <tspan x="30" dy="7">. ..  . ..:tpWMMM#WMMMW8%BB@B@@@$BBB@@@@@BB%%%%%%8&amp;MM#*#MW&amp;&amp;&amp;&amp;WWMaoaho*a**kC!. . . . ... . .</tspan>
-    <tspan x="30" dy="7"> .. . . `;CW**M#M#oaa*M&amp;8%B@@@BB%%&amp;W&amp;W%%%8%8%8%8888&amp;M#*ohkbbbbhoo#MW#*M#khpdL, . . . .  . . </tspan>
-    <tspan x="30" dy="7">.  . . .'Xhb*#M##MM88&amp;8BB%8Mohbbbpqqmmdao#8&amp;%8W&amp;W&amp;8%%%8&amp;WM*ohkddddh*MMMMMoaqdr.. . . . . . .</tspan>
-    <tspan x="30" dy="7"> ..   . )**koMW&amp;8B8WM&amp;%8#abm0CJYXzzzcXUC0Zdbhbbbbhho#W88#MWWWM*hhkkka#MMMMakp) ..  . . .. . </tspan>
-    <tspan x="30" dy="7">.  ....&lt;Q##*#88%8&amp;&amp;W&amp;8MbmOCXzzux  ttt  x ncXJUCQ0Omqpba##haM8%%WMMM##oah#&amp;&amp;*#J'  .. . .. . .</tspan>
-    <tspan x="30" dy="7"> ..  ..`c&amp;M#88&amp;8&amp;%%8#kd0JYzuu ffjrrrrrrrfjftnuuczYUJJLQZbbppk*W%8&amp;8%%8#ooMWMo#t`.  . . . .  </tspan>
-    <tspan x="30" dy="7">. . .  '0MM88W8&amp;8%8apOLXzvux fr//||||(||/|/rrftxxnnuuvcXJZqZqba#W8&amp;&amp;8&amp;WMoaMW**Y'.. . . .. ..</tspan>
-    <tspan x="30" dy="7"> . . . ;QM#8WW88%B#qOJYuxxxtfjr//||()(((())||/rr/rrft xuczOmLmpokaB88%%W&amp;#*M#aY; . . .  . ..</tspan>
-    <tspan x="30" dy="7">.  . .. xM*WW%88%8oqLXcn ttfjrj/|())11111)11)(()))((/rt ucuOYJQmbqM@@%%8&amp;&amp;*Moov,. . . .. . .</tspan>
-    <tspan x="30" dy="7"> .. . . iOB&amp;&amp;%8&amp;&amp;WhdQcn t tffj/|()1111{{{{{{{1111111)(|jtxxnUvXY0phB@B8&amp;W&amp;W##k , . . . . . .</tspan>
-    <tspan x="30" dy="7"> . . . ` r@M&amp;8WMWModCvx  ttfjr|()11{{{{{}{}{}{{{}{}}{1)(/f tcvvzYZa8$B%%%M#WWw&gt;, . .  . .. .</tspan>
-    <tspan x="30" dy="7"> .  . . .&lt;aWMW&amp;MWW#mcn ffjjr/|(1111{{1{{{{{{{{{}}[[}}{{1)/jtxxxucChM%BBB8&amp;8&amp;8L .  . . . . . </tspan>
-    <tspan x="30" dy="7">. . . . . U8#MWMM&amp;dc rjuUXzzYUYXYcnxj/|(1))(11)(||/|(//(|rf fjtxxzboM&amp;%%W88WM) ... . .  . . </tspan>
-    <tspan x="30" dy="7"> . . . .. _o&amp;WMWB*ctfJwo#MMW&amp;&amp;88W#kZOXv r///rjuccCwdbpdwZm0O0c/jttm#*MM888#&amp;k; .  . . .. . .</tspan>
-    <tspan x="30" dy="7">. . . .    J8M*W@0jjO*hpOQ00OmqdpmZQQCXcntf nuXJQqboMW&amp;W#akhkd0x/jn*W*##8&amp;8k?. . . .. . . . </tspan>
-    <tspan x="30" dy="7"> . . . . ` (WWMW&amp;u|nmCzvzXYYUJLOppwwZLYv j/r uXJ0Owqww0UXcXXX0qdu//Q%WMoM&amp;d( . . .. . . . . </tspan>
-    <tspan x="30" dy="7">. . .   . '(q&amp;M#k/r uxcmdbd*%*a8h*#admCur)}[( UmqboohkqO0CJJXxvJCt)uMWM*M*1 .. .. . . . . . </tspan>
-    <tspan x="30" dy="7"> . .  .. .uCuw*ML)j cUdM*#pbohkhQwbkwQUn/{[])tUOmo*mp%MM$hkkbqu tj}rhMM*Wr ` . . . . . . . .</tspan>
-    <tspan x="30" dy="7">. . .. . &lt;mZJvL*c)tnzULLLCLCJUCJLJYzcvvf|1}[1rtuzLOZ0QQOZJ0pk*Zcj){{p*&amp;pu|i . . . . . . . . </tspan>
-    <tspan x="30" dy="7"> . .  .. 1mUnxzkr/tfjjrf nuczzcntff t fr|1[]{|/rfjxzUJUJYXzvnn t/{}]mbCxXw1 . . . . . . . ..</tspan>
-    <tspan x="30" dy="7">. . .. . )OvfuLp)rj//(1{{{}{111))(|rjfjr){[]{)(((11{)|/rrj/(1}}[}}}-QQrtQQ- .. . . . . . .. </tspan>
-    <tspan x="30" dy="7"> . .  .. ]QtuJhL1rr/()){}[}}}{{1(|jxx t/)}[-?1|(r(1{}}[}[[?]??][[[}-zL|(cU&gt; .   . .   . .  .</tspan>
-    <tspan x="30" dy="7"> . .. .. iYtXULJ(r//((1{}}}}{1(rtxvj((r|(11{?[11}jxr)1}}}[?--??][[{? w |xc'  .. . . .. . .. </tspan>
-    <tspan x="30" dy="7">. .  .   `xt UzQ|rrr||()))11(fnzvuXxzCQYxt f cct(/vvxr|11}]]]?]][}1[ Jnjr/  . . . . .. . . .</tspan>
-    <tspan x="30" dy="7"> . .. ..  1unfCmt/jrrrr//|/fcUXunxcCwwwwQYUXLmqwL jtvvxr|)1{}{}}}11{ur (f- . . . .. . .  . .</tspan>
-    <tspan x="30" dy="7">.  . . .. ]ffjvqv/ffjjfrftcQCcnvccJQQqwOmLCCJUUYujr|/xXXxr||)))1111(Xt|rr;  .  . . . . . . .</tspan>
-    <tspan x="30" dy="7"> . . .  . )tfrfmUjfttfttxYqqOOZ0QJLQ0LUCUXzJJYXYzJuxff zCz jr/(((()rC|(f1` .  . . . . . . . </tspan>
-    <tspan x="30" dy="7"> . . . .  _ frjmc ttt tttUhhapOJXXYXYzccn ttxt   vnJJQQQLJvtjr//||) z|/(_ . .. . . . . . . .</tspan>
-    <tspan x="30" dy="7">.  . .  .  +r  Uct nutttrrOhmpo*aqQXCuYzcYUccJXUXzzYQdadkLf/rrrr/|)ur11(_ ..  . . .  . . .. </tspan>
-    <tspan x="30" dy="7"> . .. .. ..  ,.:Lvnvcux f|jcnvUqdOUtu)j1?}1-[t|vtOp&amp;#bdqO (//ffjjjjJ/(/{:  . . . .. . . . ..</tspan>
-    <tspan x="30" dy="7">. . .  . . .    (Qnvvcvn j|f jrrtucvvn rrrfr|f/frvcvfrtU 1/ff  ff/X-~-&gt;.  .  . ... . . . .  </tspan>
-    <tspan x="30" dy="7"> . . . . . .. .. CQvzccuxtfttjr//jf xxtfr|rr/rfjjr({}1|n/(jx x  jJt     . .. ..  . . .. .. .</tspan>
-    <tspan x="30" dy="7">. . . . . . .  . imZUXcvnx ftjr/rrrf zYLCXUYUvxj|({111|jjftxnunxCZ:... . . . . .. . .. . . .</tspan>
-    <tspan x="30" dy="7"> .. . . . .. .. . -*bZXvux   jj//jftfxcYJmLJUnf/())1))|f   xnuzpQi . . . . . .  . . . . . . </tspan>
-    <tspan x="30" dy="7">.. . . . . . . . . xaoqYvvncntj|(/fr//jjfn t())11{)11)jnxnuvY0kU' . . . . . . . . . . . . . </tspan>
-    <tspan x="30" dy="7">. . . .  . . . . . (CwdpQcYJLQnt||1jff/||1/(|{}}1{1{)/cXzXLZkkc  . .. . .  .  . . . . . .. .</tspan>
-    <tspan x="30" dy="7">..   .. . .  . . . }zXwwpqmOwbmQuuXYccutjtvrtxfjjr(|vLJCQZbkQn] . . . . .. .  . . .. . . .. </tspan>
-    <tspan x="30" dy="7"> ... .  .  . . ... ?nvCYQpqdwo*opwpCCmOCYLJuuQ0JXnzZddmbkdZcft_ .  . . . . . . . . . . ..  .</tspan>
-    <tspan x="30" dy="7">.  . .. . . .. . . ~ntnXLZqdbbo#&amp;M*kboopbhdqbodddd*Moo*hwJutjf&gt; ... .... . .. . . . . . . ..</tspan>
-    <tspan x="30" dy="7"> . .  . . . . . .. _xtnucCQqpppaaMW&amp;&amp;88&amp;&amp;&amp;&amp;W8WWWW&amp;Mohpq0Xnfjrr&gt;.  ..   . . . .. . . ... . . </tspan>
-    <tspan x="30" dy="7">. . . . . . . ..  i(ft nuXzC0mmqqdh*#MMM*#M##*#*apddZQJXx f|/j;`U|  .. . .. . . . . . . .  .</tspan>
-    <tspan x="30" dy="7"> . . . .  .  .. ~?!fxf xuuuuUC0Z0Z0pdkhkdkhbdbpmOLLJcnttrr/fj&lt;'./$J`.. . . . ..  . . . . .. </tspan>
-    <tspan x="30" dy="7">. . . . . .... u*+~&lt;|xx  xnx uYCCUYUUCQQQOLJOCYYzvttfj//rjf{:.,,`p%C  ... ..  . . . . . . . </tspan>
-    <tspan x="30" dy="7"> . . .  . ..  Y$u:_&lt;i_run    xnvcvuuvuvXzzczvx fjrr/||rf/];.',': YM#Ui  .. .. . . . . . . . </tspan>
-    <tspan x="30" dy="7"> . . .. `.  ;Y@&amp;-&gt;&lt;&lt;&lt;!i_rnuxft xxxxxxxxxx xnttjj/||rff)+'.',''', CWkopf;  ... . . . . . . . </tspan>
-    <tspan x="30" dy="7">.  ....   +vdW8h&lt;~&lt;&lt;&gt;&gt;&gt;i;~) uxtt     tttttfffj//jt /]i``','''''',k*akdadn~    .....  . . . .</tspan>
-    <tspan x="30" dy="7">..`    ,)Looa*8a-~&lt;&lt;&gt;&gt;!!&gt;i:!]rxuxtttfffjffjjrrt r}&lt;,.`,''''''', r&amp;hakkpk*aL)&gt;'     ...... . </tspan>
-    <tspan x="30" dy="7">    :[vd#okko#WW|~&lt;&lt;&gt;!!iiiii:i&lt;}funfjfjjjjjtxf)~,``','''''',,,,&gt;d#ahhkkbbkoakqLn1&gt;`     ....</tspan>
-    <tspan x="30" dy="7">!}xQkMMokhho**W8z?~&gt;!!ii;;;;ii;,:_|xxttffxuf?;``',''```'`''`',; Woaahkkkkbbkkka#MaqJ {&lt;'    </tspan>
-    <tspan x="30" dy="7">k#MM*aahaaa**#W%Q)+&lt;!&gt;!i;;:::::;:' :}r t (&lt;  ','''``'```'`''';_O&amp;*oahhkkkkkhhhkbka###ohqCv/]</tspan>
-    <tspan x="30" dy="7">aaaooaaaaao*#MW&amp;Q|?~&gt;&gt;!i;;::::::,~rur{]}1j /&gt;'``````````'`'':~|kMoaaaakkbkbkkhaahbaoaaho***a</tspan>
+  <text x="630" y="21" fill="#565f89" font-size="12" text-anchor="middle">AbhiPandit1 — README.md</text>
+  <!-- portrait v6-delhi-tint -->
+  <text x="28" y="60" fill="#89dceb" font-size="7" xml:space="preserve">
+    <tspan x="28" dy="0">. . . . . . .. . . .  .   . . . . . .. . . . . . . . . .. . . . . . . . .  . . . . . . . . .</tspan>
+    <tspan x="28" dy="8"> . . . . . . . . . . . .. . ...    .  `.....   . . . . . .. . .. . . . . .. . . . . . . .. .</tspan>
+    <tspan x="28" dy="8">. . . . .  . . .  . .  .  . .  .``` _}'     ``` . .... .  . .   . . . . . . . .. .  . . . . </tspan>
+    <tspan x="28" dy="8"> . .. . . . . . .. . .. ..   :]?!;,fQ&lt;:-{1r(1}&gt;,.      ..... .. . . . . . . . . . .. . . . .</tspan>
+    <tspan x="28" dy="8">. . . . . . . . . . .  .  .'})i,_{xb0ZkoobpUx[;;i:,,,,.       . . . . . . . . . . . . . . . </tspan>
+    <tspan x="28" dy="8"> . . . . . . . . .  . ...`;rf.?cmb#M%W##kdCJQ0UQZOQOOYY /[+&gt;`.... .  . . . . . . . . . . . .</tspan>
+    <tspan x="28" dy="8"> . . . . . . .  .  ;..:,ii{0(zkao&amp;8&amp;W8%Mdwqbbkhha*#*aZLc|[&gt;:      . . . . . . . . . . . . . </tspan>
+    <tspan x="28" dy="8">. . . . . . .  . ` f{ ~)1]YoOk*#B@%BB&amp;*hkho******MWM*hkdpwCzt]&gt;i,`. ... . .  . . . . . .  . </tspan>
+    <tspan x="28" dy="8"> . . . . . ..`'. ` Xmf[CcC#kho%@$B@%Moh*&amp;%%BB%&amp;M***ooaoohhhoowv)&lt;`   .. .  . . . . . . .. . </tspan>
+    <tspan x="28" dy="8">. .  . . . . `;/[:;;cdwLh&amp;*d*&amp;$@@@%MMM8$@B%8Maohhhkh*o*aaaa***bOJt+;`   .. . . . ..  . . . .</tspan>
+    <tspan x="28" dy="8"> . .     . . . !nLu/fZaWMBob8%$$B88B@@@B%8W**oaahoaao*8BB%8WMM*MWWodzf-,   . . . . .. . . . </tspan>
+    <tspan x="28" dy="8"> . . . ....`;&lt;&lt;&lt;+xmqwpo#B$Wo@@$B%@@$@@B%&amp;&amp;W88%%B@BB%8W#*##ohahahaaobqZr)i`` . . . . . . . . </tspan>
+    <tspan x="28" dy="8">. . . . ..;&lt;~&lt;[tULZboaooMB$&amp;B@$B$@$@@@BB@@@@$$$@@@B%8W*oaaao*aao*#M*M#qz_  .. . .  . . . . .</tspan>
+    <tspan x="28" dy="8"> .  .. . `,'&gt;|Xmda*M&amp;%%8WW%BB@$@$@@$$@$$$$$$$@@@BB%%B%%%888&amp;&amp;W8B%%&amp;%8W##wf+. . . .. . .  . .</tspan>
+    <tspan x="28" dy="8">. ..  . ..:tpWMMM#WMMMW8%BB@B@@@$BBB@@@@@BB%%%%%%8&amp;MM#*#MW&amp;&amp;&amp;&amp;WWMaoaho*a**kC!. . . . ... . .</tspan>
+    <tspan x="28" dy="8"> .. . . `;CW**M#M#oaa*M&amp;8%B@@@BB%%&amp;W&amp;W%%%8%8%8%8888&amp;M#*ohkbbbbhoo#MW#*M#khpdL, . . . .  . . </tspan>
+    <tspan x="28" dy="8">.  . . .'Xhb*#M##MM88&amp;8BB%8Mohbbbpqqmmdao#8&amp;%8W&amp;W&amp;8%%%8&amp;WM*ohkddddh*MMMMMoaqdr.. . . . . . .</tspan>
+    <tspan x="28" dy="8"> ..   . )**koMW&amp;8B8WM&amp;%8#abm0CJYXzzzcXUC0Zdbhbbbbhho#W88#MWWWM*hhkkka#MMMMakp) ..  . . .. . </tspan>
+    <tspan x="28" dy="8">.  ....&lt;Q##*#88%8&amp;&amp;W&amp;8MbmOCXzzux  ttt  x ncXJUCQ0Omqpba##haM8%%WMMM##oah#&amp;&amp;*#J'  .. . .. . .</tspan>
+    <tspan x="28" dy="8"> ..  ..`c&amp;M#88&amp;8&amp;%%8#kd0JYzuu ffjrrrrrrrfjftnuuczYUJJLQZbbppk*W%8&amp;8%%8#ooMWMo#t`.  . . . .  </tspan>
+    <tspan x="28" dy="8">. . .  '0MM88W8&amp;8%8apOLXzvux fr//||||(||/|/rrftxxnnuuvcXJZqZqba#W8&amp;&amp;8&amp;WMoaMW**Y'.. . . .. ..</tspan>
+    <tspan x="28" dy="8"> . . . ;QM#8WW88%B#qOJYuxxxtfjr//||()(((())||/rr/rrft xuczOmLmpokaB88%%W&amp;#*M#aY; . . .  . ..</tspan>
+    <tspan x="28" dy="8">.  . .. xM*WW%88%8oqLXcn ttfjrj/|())11111)11)(()))((/rt ucuOYJQmbqM@@%%8&amp;&amp;*Moov,. . . .. . .</tspan>
+    <tspan x="28" dy="8"> .. . . iOB&amp;&amp;%8&amp;&amp;WhdQcn t tffj/|()1111{{{{{{{1111111)(|jtxxnUvXY0phB@B8&amp;W&amp;W##k , . . . . . .</tspan>
+    <tspan x="28" dy="8"> . . . ` r@M&amp;8WMWModCvx  ttfjr|()11{{{{{}{}{}{{{}{}}{1)(/f tcvvzYZa8$B%%%M#WWw&gt;, . .  . .. .</tspan>
+    <tspan x="28" dy="8"> .  . . .&lt;aWMW&amp;MWW#mcn ffjjr/|(1111{{1{{{{{{{{{}}[[}}{{1)/jtxxxucChM%BBB8&amp;8&amp;8L .  . . . . . </tspan>
+    <tspan x="28" dy="8">. . . . . U8#MWMM&amp;dc rjuUXzzYUYXYcnxj/|(1))(11)(||/|(//(|rf fjtxxzboM&amp;%%W88WM) ... . .  . . </tspan>
+    <tspan x="28" dy="8"> . . . .. _o&amp;WMWB*ctfJwo#MMW&amp;&amp;88W#kZOXv r///rjuccCwdbpdwZm0O0c/jttm#*MM888#&amp;k; .  . . .. . .</tspan>
+    <tspan x="28" dy="8">. . . .    J8M*W@0jjO*hpOQ00OmqdpmZQQCXcntf nuXJQqboMW&amp;W#akhkd0x/jn*W*##8&amp;8k?. . . .. . . . </tspan>
+    <tspan x="28" dy="8"> . . . . ` (WWMW&amp;u|nmCzvzXYYUJLOppwwZLYv j/r uXJ0Owqww0UXcXXX0qdu//Q%WMoM&amp;d( . . .. . . . . </tspan>
+    <tspan x="28" dy="8">. . .   . '(q&amp;M#k/r uxcmdbd*%*a8h*#admCur)}[( UmqboohkqO0CJJXxvJCt)uMWM*M*1 .. .. . . . . . </tspan>
+    <tspan x="28" dy="8"> . .  .. .uCuw*ML)j cUdM*#pbohkhQwbkwQUn/{[])tUOmo*mp%MM$hkkbqu tj}rhMM*Wr ` . . . . . . . .</tspan>
+    <tspan x="28" dy="8">. . .. . &lt;mZJvL*c)tnzULLLCLCJUCJLJYzcvvf|1}[1rtuzLOZ0QQOZJ0pk*Zcj){{p*&amp;pu|i . . . . . . . . </tspan>
+    <tspan x="28" dy="8"> . .  .. 1mUnxzkr/tfjjrf nuczzcntff t fr|1[]{|/rfjxzUJUJYXzvnn t/{}]mbCxXw1 . . . . . . . ..</tspan>
+    <tspan x="28" dy="8">. . .. . )OvfuLp)rj//(1{{{}{111))(|rjfjr){[]{)(((11{)|/rrj/(1}}[}}}-QQrtQQ- .. . . . . . .. </tspan>
+    <tspan x="28" dy="8"> . .  .. ]QtuJhL1rr/()){}[}}}{{1(|jxx t/)}[-?1|(r(1{}}[}[[?]??][[[}-zL|(cU&gt; .   . .   . .  .</tspan>
+    <tspan x="28" dy="8"> . .. .. iYtXULJ(r//((1{}}}}{1(rtxvj((r|(11{?[11}jxr)1}}}[?--??][[{? w |xc'  .. . . .. . .. </tspan>
+    <tspan x="28" dy="8">. .  .   `xt UzQ|rrr||()))11(fnzvuXxzCQYxt f cct(/vvxr|11}]]]?]][}1[ Jnjr/  . . . . .. . . .</tspan>
+    <tspan x="28" dy="8"> . .. ..  1unfCmt/jrrrr//|/fcUXunxcCwwwwQYUXLmqwL jtvvxr|)1{}{}}}11{ur (f- . . . .. . .  . .</tspan>
+    <tspan x="28" dy="8">.  . . .. ]ffjvqv/ffjjfrftcQCcnvccJQQqwOmLCCJUUYujr|/xXXxr||)))1111(Xt|rr;  .  . . . . . . .</tspan>
+    <tspan x="28" dy="8"> . . .  . )tfrfmUjfttfttxYqqOOZ0QJLQ0LUCUXzJJYXYzJuxff zCz jr/(((()rC|(f1` .  . . . . . . . </tspan>
+    <tspan x="28" dy="8"> . . . .  _ frjmc ttt tttUhhapOJXXYXYzccn ttxt   vnJJQQQLJvtjr//||) z|/(_ . .. . . . . . . .</tspan>
+    <tspan x="28" dy="8">.  . .  .  +r  Uct nutttrrOhmpo*aqQXCuYzcYUccJXUXzzYQdadkLf/rrrr/|)ur11(_ ..  . . .  . . .. </tspan>
+    <tspan x="28" dy="8"> . .. .. ..  ,.:Lvnvcux f|jcnvUqdOUtu)j1?}1-[t|vtOp&amp;#bdqO (//ffjjjjJ/(/{:  . . . .. . . . ..</tspan>
+    <tspan x="28" dy="8">. . .  . . .    (Qnvvcvn j|f jrrtucvvn rrrfr|f/frvcvfrtU 1/ff  ff/X-~-&gt;.  .  . ... . . . .  </tspan>
+    <tspan x="28" dy="8"> . . . . . .. .. CQvzccuxtfttjr//jf xxtfr|rr/rfjjr({}1|n/(jx x  jJt     . .. ..  . . .. .. .</tspan>
+    <tspan x="28" dy="8">. . . . . . .  . imZUXcvnx ftjr/rrrf zYLCXUYUvxj|({111|jjftxnunxCZ:... . . . . .. . .. . . .</tspan>
+    <tspan x="28" dy="8"> .. . . . .. .. . -*bZXvux   jj//jftfxcYJmLJUnf/())1))|f   xnuzpQi . . . . . .  . . . . . . </tspan>
+    <tspan x="28" dy="8">.. . . . . . . . . xaoqYvvncntj|(/fr//jjfn t())11{)11)jnxnuvY0kU' . . . . . . . . . . . . . </tspan>
+    <tspan x="28" dy="8">. . . .  . . . . . (CwdpQcYJLQnt||1jff/||1/(|{}}1{1{)/cXzXLZkkc  . .. . .  .  . . . . . .. .</tspan>
+    <tspan x="28" dy="8">..   .. . .  . . . }zXwwpqmOwbmQuuXYccutjtvrtxfjjr(|vLJCQZbkQn] . . . . .. .  . . .. . . .. </tspan>
+    <tspan x="28" dy="8"> ... .  .  . . ... ?nvCYQpqdwo*opwpCCmOCYLJuuQ0JXnzZddmbkdZcft_ .  . . . . . . . . . . ..  .</tspan>
+    <tspan x="28" dy="8">.  . .. . . .. . . ~ntnXLZqdbbo#&amp;M*kboopbhdqbodddd*Moo*hwJutjf&gt; ... .... . .. . . . . . . ..</tspan>
+    <tspan x="28" dy="8"> . .  . . . . . .. _xtnucCQqpppaaMW&amp;&amp;88&amp;&amp;&amp;&amp;W8WWWW&amp;Mohpq0Xnfjrr&gt;.  ..   . . . .. . . ... . . </tspan>
+    <tspan x="28" dy="8">. . . . . . . ..  i(ft nuXzC0mmqqdh*#MMM*#M##*#*apddZQJXx f|/j;`U|  .. . .. . . . . . . .  .</tspan>
+    <tspan x="28" dy="8"> . . . .  .  .. ~?!fxf xuuuuUC0Z0Z0pdkhkdkhbdbpmOLLJcnttrr/fj&lt;'./$J`.. . . . ..  . . . . .. </tspan>
+    <tspan x="28" dy="8">. . . . . .... u*+~&lt;|xx  xnx uYCCUYUUCQQQOLJOCYYzvttfj//rjf{:.,,`p%C  ... ..  . . . . . . . </tspan>
+    <tspan x="28" dy="8"> . . .  . ..  Y$u:_&lt;i_run    xnvcvuuvuvXzzczvx fjrr/||rf/];.',': YM#Ui  .. .. . . . . . . . </tspan>
+    <tspan x="28" dy="8"> . . .. `.  ;Y@&amp;-&gt;&lt;&lt;&lt;!i_rnuxft xxxxxxxxxx xnttjj/||rff)+'.',''', CWkopf;  ... . . . . . . . </tspan>
+    <tspan x="28" dy="8">.  ....   +vdW8h&lt;~&lt;&lt;&gt;&gt;&gt;i;~) uxtt     tttttfffj//jt /]i``','''''',k*akdadn~    .....  . . . .</tspan>
+    <tspan x="28" dy="8">..`    ,)Looa*8a-~&lt;&lt;&gt;&gt;!!&gt;i:!]rxuxtttfffjffjjrrt r}&lt;,.`,''''''', r&amp;hakkpk*aL)&gt;'     ...... . </tspan>
+    <tspan x="28" dy="8">    :[vd#okko#WW|~&lt;&lt;&gt;!!iiiii:i&lt;}funfjfjjjjjtxf)~,``','''''',,,,&gt;d#ahhkkbbkoakqLn1&gt;`     ....</tspan>
+    <tspan x="28" dy="8">!}xQkMMokhho**W8z?~&gt;!!ii;;;;ii;,:_|xxttffxuf?;``',''```'`''`',; Woaahkkkkbbkkka#MaqJ {&lt;'    </tspan>
+    <tspan x="28" dy="8">k#MM*aahaaa**#W%Q)+&lt;!&gt;!i;;:::::;:' :}r t (&lt;  ','''``'```'`''';_O&amp;*oahhkkkkkhhhkbka###ohqCv/]</tspan>
+    <tspan x="28" dy="8">aaaooaaaaao*#MW&amp;Q|?~&gt;&gt;!i;;::::::,~rur{]}1j /&gt;'``````````'`'':~|kMoaaaakkbkbkkhaahbaoaaho***a</tspan>
   </text>
   <g font-size="15">
-    <text x="430" y="92"><tspan fill="#9ece6a">Abhishek Jha</tspan></text>
-    <text x="430" y="112" fill="#565f89">------------------------------------------</text>
-    <text x="430" y="134"><tspan fill="#e0af68">Role: </tspan><tspan fill="#c0caf5">Full-Stack / Staff Engineer</tspan></text>
-    <text x="430" y="156"><tspan fill="#e0af68">Title: </tspan><tspan fill="#c0caf5">Lead Full Stack Developer</tspan></text>
-    <text x="430" y="178"><tspan fill="#e0af68">Location: </tspan><tspan fill="#c0caf5">London  (open to relocate)</tspan></text>
-    <text x="430" y="200"><tspan fill="#e0af68">Uptime: </tspan><tspan fill="#c0caf5">6+ years in software</tspan></text>
-    <text x="430" y="222"><tspan fill="#e0af68">Languages: </tspan><tspan fill="#c0caf5">TypeScript, Python, SQL</tspan></text>
-    <text x="430" y="244"><tspan fill="#e0af68">Frontend: </tspan><tspan fill="#c0caf5">React, Next.js, Tailwind</tspan></text>
-    <text x="430" y="266"><tspan fill="#e0af68">Backend: </tspan><tspan fill="#c0caf5">Node, Express, FastAPI</tspan></text>
-    <text x="430" y="288"><tspan fill="#e0af68">Data: </tspan><tspan fill="#c0caf5">PostgreSQL, MongoDB, Redis</tspan></text>
-    <text x="430" y="310"><tspan fill="#e0af68">Infra: </tspan><tspan fill="#c0caf5">AWS, Kubernetes, Kafka, Docker</tspan></text>
-    <text x="430" y="332"><tspan fill="#e0af68">Focus: </tspan><tspan fill="#c0caf5">event-driven systems, AI/LLM products</tspan></text>
-    <text x="430" y="354"><tspan fill="#e0af68">Education: </tspan><tspan fill="#c0caf5">MSc Computer Science (UK)</tspan></text>
-    <text x="430" y="376"><tspan fill="#e0af68">LeetCode: </tspan><tspan fill="#c0caf5">741 solved, Top-5 UK (contests 429/430)</tspan></text>
-    <text x="430" y="414"><tspan fill="#e0af68">Email: </tspan><tspan fill="#c0caf5">224abhishekjhauk@gmail.com</tspan></text>
-    <text x="430" y="436"><tspan fill="#e0af68">LinkedIn: </tspan><tspan fill="#c0caf5">/in/abhishek-jha-087a761a8</tspan></text>
-    <text x="430" y="458"><tspan fill="#e0af68">Portfolio: </tspan><tspan fill="#c0caf5">abhishekportfolio.me</tspan></text>
-    <text x="430" y="496" fill="#565f89">GitHub Stats -----------------------------</text>
-    <text x="430" y="518"><tspan fill="#e0af68">Repos: </tspan><tspan fill="#c0caf5">57   </tspan><tspan fill="#e0af68">Stars: </tspan><tspan fill="#c0caf5">21   </tspan><tspan fill="#e0af68">Following: </tspan><tspan fill="#c0caf5">9</tspan></text>
+    <text x="470" y="90"><tspan fill="#9ece6a">Abhishek Jha</tspan></text>
+    <text x="470" y="110" fill="#565f89">------------------------------------------</text>
+    <text x="470" y="132"><tspan fill="#e0af68">Role: </tspan><tspan fill="#c0caf5">Full-Stack / Staff Engineer</tspan></text>
+    <text x="470" y="154"><tspan fill="#e0af68">Title: </tspan><tspan fill="#c0caf5">Lead Full Stack Developer</tspan></text>
+    <text x="470" y="176"><tspan fill="#e0af68">Location: </tspan><tspan fill="#c0caf5">Delhi, India  (open to relocate)</tspan></text>
+    <text x="470" y="198"><tspan fill="#e0af68">Uptime: </tspan><tspan fill="#c0caf5">6+ years in software</tspan></text>
+    <text x="470" y="220"><tspan fill="#e0af68">Languages: </tspan><tspan fill="#c0caf5">TypeScript, Python, SQL</tspan></text>
+    <text x="470" y="242"><tspan fill="#e0af68">Frontend: </tspan><tspan fill="#c0caf5">React, Next.js, Tailwind</tspan></text>
+    <text x="470" y="264"><tspan fill="#e0af68">Backend: </tspan><tspan fill="#c0caf5">Node, Express, FastAPI</tspan></text>
+    <text x="470" y="286"><tspan fill="#e0af68">Data: </tspan><tspan fill="#c0caf5">PostgreSQL, MongoDB, Redis</tspan></text>
+    <text x="470" y="308"><tspan fill="#e0af68">Infra: </tspan><tspan fill="#c0caf5">AWS, Kubernetes, Kafka, Docker</tspan></text>
+    <text x="470" y="330"><tspan fill="#e0af68">Focus: </tspan><tspan fill="#c0caf5">event-driven systems, AI/LLM products</tspan></text>
+    <text x="470" y="352"><tspan fill="#e0af68">Education: </tspan><tspan fill="#c0caf5">MSc Computer Science (UK)</tspan></text>
+    <text x="470" y="374"><tspan fill="#e0af68">LeetCode: </tspan><tspan fill="#c0caf5">741 solved, Top-5 UK (contests 429/430)</tspan></text>
+    <text x="470" y="412"><tspan fill="#e0af68">Email: </tspan><tspan fill="#c0caf5">224abhishekjhauk@gmail.com</tspan></text>
+    <text x="470" y="434"><tspan fill="#e0af68">LinkedIn: </tspan><tspan fill="#c0caf5">linkedin.com/in/abhishek-jha-087a761a8</tspan></text>
+    <text x="470" y="456"><tspan fill="#e0af68">Portfolio: </tspan><tspan fill="#c0caf5">abhishek-portfolio-fbgr.onrender.com</tspan></text>
+    <text x="470" y="494" fill="#565f89">GitHub Stats -----------------------------</text>
+    <text x="470" y="516"><tspan fill="#e0af68">Repos: </tspan><tspan fill="#c0caf5">57   </tspan><tspan fill="#e0af68">Stars: </tspan><tspan fill="#c0caf5">21   </tspan><tspan fill="#e0af68">Following: </tspan><tspan fill="#c0caf5">9</tspan></text>
   </g>
 </svg>
