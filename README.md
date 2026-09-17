@@ -20,6 +20,16 @@
 
 ---
 
+### 🔬 Research — in preparation
+
+- **Reading the Unreadable** — a benchmark for handwritten text recognition on *unseen* historical Danish hands, comparing trained specialists against general vision-language models (with Andy Stauder, Transkribus / READ-COOP).
+- **Cross-lingual historical HTR (Danish ↔ Swedish)** — era-specialist recognisers and a Danish↔Swedish transfer study on 16th–19th-century Nordic court and church records (with Uppsala University; target *IJDAR*).
+
+### 🤗 Open models &amp; data
+[**Historical Danish HTR**](https://huggingface.co/abhishekjha1008) on the Hugging Face Hub — YOLO + kraken line segmenters, a 160k-line synthetic dataset, and a live demo. Segmentation is the hidden tax in historical HTR.
+
+---
+
 <!--
   PLAIN FALLBACK (agar SVG nahi chahiye) — instant render, single-color.
   Upar wale <p><img neofetch></p> ko hata ke neeche wala uncomment kar do.
