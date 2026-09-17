@@ -75,18 +75,18 @@
   <g font-size="15">
     <text x="470" y="90"><tspan fill="#9ece6a">Abhishek Jha</tspan></text>
     <text x="470" y="110" fill="#565f89">------------------------------------------</text>
-    <text x="470" y="132"><tspan fill="#e0af68">Role: </tspan><tspan fill="#c0caf5">Full-Stack / Staff Engineer</tspan></text>
-    <text x="470" y="154"><tspan fill="#e0af68">Title: </tspan><tspan fill="#c0caf5">Lead Full Stack Developer</tspan></text>
+    <text x="470" y="132"><tspan fill="#e0af68">Role: </tspan><tspan fill="#c0caf5">ML & Full-Stack Engineer</tspan></text>
+    <text x="470" y="154"><tspan fill="#e0af68">Title: </tspan><tspan fill="#c0caf5">Acting CTO, Danish startup · HTR research</tspan></text>
     <text x="470" y="176"><tspan fill="#e0af68">Location: </tspan><tspan fill="#c0caf5">Delhi, India  (open to relocate)</tspan></text>
-    <text x="470" y="198"><tspan fill="#e0af68">Uptime: </tspan><tspan fill="#c0caf5">6+ years in software</tspan></text>
-    <text x="470" y="220"><tspan fill="#e0af68">Languages: </tspan><tspan fill="#c0caf5">TypeScript, Python, SQL</tspan></text>
-    <text x="470" y="242"><tspan fill="#e0af68">Frontend: </tspan><tspan fill="#c0caf5">React, Next.js, Tailwind</tspan></text>
-    <text x="470" y="264"><tspan fill="#e0af68">Backend: </tspan><tspan fill="#c0caf5">Node, Express, FastAPI</tspan></text>
-    <text x="470" y="286"><tspan fill="#e0af68">Data: </tspan><tspan fill="#c0caf5">PostgreSQL, MongoDB, Redis</tspan></text>
-    <text x="470" y="308"><tspan fill="#e0af68">Infra: </tspan><tspan fill="#c0caf5">AWS, Kubernetes, Kafka, Docker</tspan></text>
-    <text x="470" y="330"><tspan fill="#e0af68">Focus: </tspan><tspan fill="#c0caf5">event-driven systems, AI/LLM products</tspan></text>
-    <text x="470" y="352"><tspan fill="#e0af68">Education: </tspan><tspan fill="#c0caf5">MSc Computer Science (UK)</tspan></text>
-    <text x="470" y="374"><tspan fill="#e0af68">LeetCode: </tspan><tspan fill="#c0caf5">741 solved, Top-5 UK (contests 429/430)</tspan></text>
+    <text x="470" y="198"><tspan fill="#e0af68">Focus: </tspan><tspan fill="#c0caf5">Historical HTR · LLM/RAG · scalable web apps</tspan></text>
+    <text x="470" y="220"><tspan fill="#e0af68">ML: </tspan><tspan fill="#c0caf5">PyTorch, PyLaia (CTC), Qwen2.5-VL QLoRA, YOLO</tspan></text>
+    <text x="470" y="242"><tspan fill="#e0af68">LLM/RAG: </tspan><tspan fill="#c0caf5">Azure/OpenAI, embeddings, retrieval, evals</tspan></text>
+    <text x="470" y="264"><tspan fill="#e0af68">Frontend: </tspan><tspan fill="#c0caf5">React, Next.js, Tailwind</tspan></text>
+    <text x="470" y="286"><tspan fill="#e0af68">Backend: </tspan><tspan fill="#c0caf5">Node, Express, FastAPI</tspan></text>
+    <text x="470" y="308"><tspan fill="#e0af68">Infra: </tspan><tspan fill="#c0caf5">Azure, Kubernetes, Docker, Celery</tspan></text>
+    <text x="470" y="330"><tspan fill="#e0af68">Data: </tspan><tspan fill="#c0caf5">PostgreSQL, MongoDB, Redis</tspan></text>
+    <text x="470" y="352"><tspan fill="#e0af68">Languages: </tspan><tspan fill="#c0caf5">Python, TypeScript, SQL</tspan></text>
+    <text x="470" y="374"><tspan fill="#e0af68">Education: </tspan><tspan fill="#c0caf5">MSc CS (UK) · LeetCode Top-5 UK (741)</tspan></text>
     <text x="470" y="412"><tspan fill="#e0af68">Email: </tspan><tspan fill="#c0caf5">224abhishekjhauk@gmail.com</tspan></text>
     <text x="470" y="434"><tspan fill="#e0af68">LinkedIn: </tspan><tspan fill="#c0caf5">linkedin.com/in/abhishek-jha-087a761a8</tspan></text>
     <text x="470" y="456"><tspan fill="#e0af68">Portfolio: </tspan><tspan fill="#c0caf5">abhishek-portfolio-fbgr.onrender.com</tspan></text>
