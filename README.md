@@ -5,7 +5,7 @@
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AbhiPandit1/AbhiPandit1/main/neofetch.svg" alt="neofetch" width="880" />
+  <img src="https://raw.githubusercontent.com/AbhiPandit1/AbhiPandit1/main/neofetch.svg?v=2" alt="neofetch" width="880" />
 </p>
 
 <!-- Live stats (auto: real repos / stars / commits) -->
